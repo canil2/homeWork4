@@ -1,0 +1,75 @@
+main {
+  width: 85%;
+  margin: auto;
+  background-color: #5cc56e;
+  margin-top: 3%;
+  padding: 30px;
+  height: 500px;
+  padding-top: 0px;
+  border-radius: 15px;
+}
+
+#questionArea {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  height: 300px;
+  border: 2px solid yellow;
+  border-radius: 15px;
+  padding-left: 40px;
+  background-color: #328874;
+}
+
+li button {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+li button:hover {
+  background-color: grey;
+  color: white;
+}
+
+header {
+  padding: 7px;
+}
+#scores {
+  width: 37%;
+  display: inline-block;
+  margin-left: 5%;
+}
+#title {
+  width: 40%;
+  display: inline-block;
+}
+#title button {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+#time {
+  width: 13%;
+  display: inline-block;
+}
+#submitBtn {
+  background-color: red;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+.selectedAnswer {
+  background-color: pink;
+}
+
+input,
+button {
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 8px;
+}

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="quizjs.js"></script>
+    <link href="quizcss.css" rel="stylesheet" />
+  </head>
+  <body onload="resetPageOnLoad()">
+    <main>
+      <header>
+        <div id="scores">
+          <h3><a href="javascript:requestInitials()">View High Scores</a></h3>
+        </div>
+        <div id="title">
+          <h2>WEB QUIZ</h2>
+          <button onclick="startQuiz()">START QUIZ</button>
+        </div>
+        <div id="time">
+          <b>Time : <b id="timeVal"> 1 MIN </b> </b>
+        </div>
+      </header>
+      <hr />
+
+      <div id="questionArea">
+        <div id="question"></div>
+        <div id="answers"></div>
+      </div>
+    </main>
+  </body>
+</html>
